@@ -7,24 +7,9 @@
     align-items: center;
     justify-content: center;
 }
-.searchBar{
-    margin-left: 180px;
-    max-width: 600px;
-}
-.searchBar input{
-    position: relative;
-
-    width: 600px;
-    height: 42px;
-    padding: 10px 60px 9px 15px;
-    border: none;
-    box-sizing: border-box;
-    border-radius: 2px;
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
-}
 .container{
-    width: 60%;
-    height: 80%;
+    width: 1200px;
+    height: 86px;
     background-color: aqua;
 }
 .logo{
@@ -35,12 +20,59 @@
     font-size: 2em;
 }
 
+/* Barra de busqueda */
+.searchBar{
+    margin-left: 180px;
+    max-width: 600px;
+}
+.searchBar input{
+    position: relative;
+    width: 600px;
+    height: 42px;
+    padding: 10px 60px 9px 15px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    font-size: 16px;
+}
+input:focus {
+    outline:none;
+}
+/* location */
+.location{
+    width: 90px;
+    margin-top: 10px;
+    float: left;
+    background-color: green;
+    position: relative;
+}
+.location span{
+    white-space: nowrap;
+    display: block;
+    margin-left: 30px;
+}
+.location i{
+    position: absolute;
+    margin-top: 10px;
+}
+.sendTo{
+    color: rgba(0,0,0,.5);
+    font-size: 12px;
+}
+.country{
+    font-size: 14px;
+}
+
 /* Links navegacion */
+a {
+    text-decoration: none;
+}
 .menu{
     margin-top: 20px;
-    margin-left: 165px;
+    margin-left: 175px;
 }
-span{
+.menu2{
     float: right;
 }
 li{
@@ -51,4 +83,9 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+/* carrito compras */
+.chart{
+    margin-left: 15px;
 }
